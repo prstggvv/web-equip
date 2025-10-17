@@ -1,0 +1,79 @@
+.catalog {
+  width: 100%;
+  margin: 0;
+  background-color: var(--color-light);
+}
+
+.container {
+  max-width: 1140px;
+  padding: 100px 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  background-color: var(--background-color-premium);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 34px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.heading {
+  font-family: var(--font-gt-eesti-pro-display-bold);
+  margin: 0;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0.5%;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-family: var(--font-gt-eesti-pro-display-light);
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+.button {
+  border: 1px solid var(--color-premium);
+  color: var(--color-premium);
+  background-color: transparent;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 13px 22px;
+  border-radius: 100px;
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.button:hover {
+  background-color: var(--color-premium);
+  color: var(--color-light);
+}

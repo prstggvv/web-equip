@@ -1,6 +1,6 @@
 import cls from './Header.module.css';
 import { classNames } from '../../../shared/lib/classNames/classNames';
-import LogoImage from '../../../shared/assets/icons/logo.svg';
+import LogoImage from '../../../shared/assets/images/icons/logo.svg';
 import Button from '../../../shared/ui/Button/Button';
 
 interface IHeaderProps {
