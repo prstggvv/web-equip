@@ -4,7 +4,7 @@ import { classNames } from '../../../shared/lib/classNames/classNames';
 const MainPage = () => {
   return (
     <div className={classNames(cls.MainPage, {}, [])}>
-      <h1 className={classNames('title', {}, [])}>MainPage</h1>
+      <h1 className={classNames(cls.title, {}, [])}>MainPage</h1>
     </div>
   );
 };

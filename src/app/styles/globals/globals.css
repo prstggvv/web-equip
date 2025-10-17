@@ -1,7 +1,9 @@
 @import url('../fonts.css');
 
 :root {
-  --font-family: 'Inter', sans-serif;
+  --font-gt-eesti-pro-display-light: 'GT Eesti Pro Display-light', sans-serif;
+  --font-gt-eesti-pro-display-regular: 'GT Eesti Pro Display-regular', sans-serif;
+  --font-gt-eesti-pro-display-bold: 'GT Eesti Pro Display-bold', sans-serif;
   --color-black: #000;
   --color-light: white;
 }
