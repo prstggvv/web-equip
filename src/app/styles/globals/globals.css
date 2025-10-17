@@ -5,5 +5,8 @@
   --font-gt-eesti-pro-display-regular: 'GT Eesti Pro Display-regular', sans-serif;
   --font-gt-eesti-pro-display-bold: 'GT Eesti Pro Display-bold', sans-serif;
   --color-black: #000;
-  --color-light: white;
+  --color-secondary: rgba(0, 180, 220, 1);
+  --color-premium: rgba(0, 0, 0, 1);
+  --color-light: rgba(255, 255, 255, 1);
+  --background-color-premium: rgba(244, 246, 250, 1);
 }

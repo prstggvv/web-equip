@@ -11,3 +11,7 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
+.main {
+  background-color: var(--color-light);
+}
