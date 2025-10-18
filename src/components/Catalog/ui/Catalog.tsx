@@ -18,16 +18,21 @@ export const Catalog = () => {
                   Lorem ipsum dolor sit amet, consect adipiscing elit. Eum iriure!
                 </p>
               </div>
-              <Button 
-                className={classNames(cls.button, {}, [])}
+              <Button
+                className={classNames(cls.button, {}, [cls.decstopButton])}
                 type='button'
                 children='Подробнее'
               />
             </div>
-            <img 
+            <img
               className={classNames(cls.image, {}, [])}
               src={ImageI}
               alt='#'
+            />
+            <Button
+              className={classNames(cls.button, {}, [cls.mobileButton])}
+              type='button'
+              children='Подробнее'
             />
           </li>
           <li className={classNames(cls.card, {}, [])}>
@@ -40,16 +45,21 @@ export const Catalog = () => {
                   Lorem ipsum dolor sit amet, consect adipiscing elit. Eum iriure!
                 </p>
               </div>
-              <Button 
-                className={classNames(cls.button, {}, [])}
+              <Button
+                className={classNames(cls.button, {}, [cls.decstopButton])}
                 type='button'
                 children='Подробнее'
               />
             </div>
-            <img 
+            <img
               className={classNames(cls.image, {}, [])}
               src={ImageI}
               alt='#'
+            />
+            <Button
+              className={classNames(cls.button, {}, [cls.mobileButton])}
+              type='button'
+              children='Подробнее'
             />
           </li>
           <li className={classNames(cls.card, {}, [])}>
@@ -62,16 +72,21 @@ export const Catalog = () => {
                   Lorem ipsum dolor sit amet, consect adipiscing elit. Eum iriure!
                 </p>
               </div>
-              <Button 
-                className={classNames(cls.button, {}, [])}
+              <Button
+                className={classNames(cls.button, {}, [cls.decstopButton])}
                 type='button'
                 children='Подробнее'
               />
             </div>
-            <img 
+            <img
               className={classNames(cls.image, {}, [])}
               src={ImageI}
               alt='#'
+            />
+            <Button
+              className={classNames(cls.button, {}, [cls.mobileButton])}
+              type='button'
+              children='Подробнее'
             />
           </li>
           <li className={classNames(cls.card, {}, [])}>
@@ -84,16 +99,21 @@ export const Catalog = () => {
                   Lorem ipsum dolor sit amet, consect adipiscing elit. Eum iriure!
                 </p>
               </div>
-              <Button 
-                className={classNames(cls.button, {}, [])}
+              <Button
+                className={classNames(cls.button, {}, [cls.decstopButton])}
                 type='button'
                 children='Подробнее'
               />
             </div>
-            <img 
+            <img
               className={classNames(cls.image, {}, [])}
               src={ImageI}
               alt='#'
+            />
+            <Button
+              className={classNames(cls.button, {}, [cls.mobileButton])}
+              type='button'
+              children='Подробнее'
             />
           </li>
         </ul>

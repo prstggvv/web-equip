@@ -11,11 +11,32 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+  justify-items: center;
 }
 
 .image {
   width: 555px;
-  height: 380px;
+  height: auto;
   object-fit: cover;
   object-position: center;
+}
+
+@media screen and (max-width: 1170px) {
+  .container {
+    justify-items: center;
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .image {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .image {
+    width: 280px;
+  }
 }

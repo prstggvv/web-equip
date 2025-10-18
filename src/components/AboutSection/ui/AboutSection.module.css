@@ -6,6 +6,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+  object-fit: cover;
 }
 
 .container {
@@ -69,4 +70,46 @@
 
 .button:hover {
   opacity: .7;
+}
+
+@media screen and (max-width: 1056px) {
+  .section {
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .container {
+    max-width: 689px;
+    border-radius: 10px;
+    padding: 43px 39px;
+    width: 100%;
+    height: auto;
+  }
+
+  .titles {
+    width: 100%;
+  }
+
+  .uptitle {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section {
+    min-height: 90vh;
+  }
+  .uptitle {
+    font-size: 18px;
+  }
+
+  .title {
+    line-height: 28px;
+  }
 }

@@ -38,57 +38,58 @@ export const Footer = ({ className }: IFooterProps) => {
               ))}
             </ul>
           </div>
-          <div className={classNames(cls.line, {}, [])}></div>
-          <div className={classNames(cls.blocks, {}, [])}>
-            <h3 className={classNames(cls.heading, {}, [])}>
-              Оборудование
-            </h3>
-            <div className={classNames(cls.block, {}, [])}>
-              <p className={classNames(cls.text, {}, [cls.nonLight])}>
-                Lorem ipsum
-              </p>
-              <p className={classNames(cls.text, {}, [cls.nonLight])}>
-                Lorem ipsum
-              </p>
-              <p className={classNames(cls.text, {}, [cls.nonLight])}>
-                Lorem ipsum
-              </p>
+          <div className={classNames(cls.blocksCards, {}, [])}>
+            <div className={classNames(cls.line, {}, [])}></div>
+            <div className={classNames(cls.blocks, {}, [])}>
+              <h3 className={classNames(cls.heading, {}, [])}>
+                Оборудование
+              </h3>
+              <div className={classNames(cls.block, {}, [])}>
+                <p className={classNames(cls.text, {}, [cls.nonLight])}>
+                  Lorem ipsum
+                </p>
+                <p className={classNames(cls.text, {}, [cls.nonLight])}>
+                  Lorem ipsum
+                </p>
+                <p className={classNames(cls.text, {}, [cls.nonLight])}>
+                  Lorem ipsum
+                </p>
+              </div>
             </div>
-          </div>
-          <div className={classNames(cls.line, {}, [])}></div>
-          <div className={classNames(cls.blocks, {}, [])}>
-            <h3 className={classNames(cls.heading, {}, [])}>
-              Информация
-            </h3>
-            <div className={classNames(cls.block, {}, [])}>
-              <p className={classNames(cls.text, {}, [cls.nonLight])}>
-                О компании
-              </p>
-              <p className={classNames(cls.text, {}, [cls.nonLight])}>
+            <div className={classNames(cls.line, {}, [])}></div>
+            <div className={classNames(cls.blocks, {}, [])}>
+              <h3 className={classNames(cls.heading, {}, [])}>
+                Информация
+              </h3>
+              <div className={classNames(cls.block, {}, [])}>
+                <p className={classNames(cls.text, {}, [cls.nonLight])}>
+                  О компании
+                </p>
+                <p className={classNames(cls.text, {}, [cls.nonLight])}>
+                  Контакты
+                </p>
+              </div>
+            </div>
+            <div className={classNames(cls.line, {}, [])}></div>
+            <div className={classNames(cls.blocks, {}, [])}>
+              <h3 className={classNames(cls.heading, {}, [])}>
                 Контакты
-              </p>
-            </div>
-          </div>
-          <div className={classNames(cls.line, {}, [])}></div>
-          <div className={classNames(cls.blocks, {}, [])}>
-            <h3 className={classNames(cls.heading, {}, [])}>
-              Контакты
-            </h3>
-            <div className={classNames(cls.block, {}, [])}>
-              <p className={classNames(cls.text, {}, [cls.nonLight])}>
-                +7 978 000 00 00
-              </p>
-              <p className={classNames(cls.text, {}, [cls.nonLight])}>
-                van@mail.ru
-              </p>
-              <p className={classNames(cls.text, {}, [cls.nonLight])}>
-                6116 Willa River Suite 610
-              </p>
+              </h3>
+              <div className={classNames(cls.block, {}, [])}>
+                <p className={classNames(cls.text, {}, [cls.nonLight])}>
+                  +7 978 000 00 00
+                </p>
+                <p className={classNames(cls.text, {}, [cls.nonLight])}>
+                  van@mail.ru
+                </p>
+                <p className={classNames(cls.text, {}, [cls.nonLight])}>
+                  6116 Willa River Suite 610
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div className={classNames(cls.lineMain, {}, [])}>
-
         </div>
         <div className={classNames(cls.lower, {}, [])}>
           <p className={classNames(cls.text, {}, [])}>Duis autem vel eum</p>
