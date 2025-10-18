@@ -1,0 +1,23 @@
+<svg viewBox="0 0 24 26.0601" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.000000" height="26.060059" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_outline">
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 " />
+		</filter>
+		<clipPath id="clipPath_1">
+			<rect width="24.000000" height="26.060089" x="0.000000" y="0.000000" fill="rgb(255,255,255)" />
+		</clipPath>
+	</defs>
+	<mask id="mask_1" width="6.506611" height="15.201720" x="9.000000" y="5.429199" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_outline)">
+			<path id="Mask" d="M15.2525 13.0361L13.2901 13.0361C13.2901 16.4405 13.2901 20.6309 13.2901 20.6309L10.3823 20.6309C10.3823 20.6309 10.3823 16.4811 10.3823 13.0361L9 13.0361L9 10.3519L10.3823 10.3519L10.3823 8.61568C10.3823 7.37221 10.9264 5.4292 13.3168 5.4292L15.4716 5.43817L15.4716 8.0438C15.4716 8.0438 14.1622 8.0438 13.9077 8.0438C13.6531 8.0438 13.2911 8.18202 13.2911 8.775L13.2911 10.3524L15.5066 10.3524L15.2525 13.0361Z" fill="rgb(255,255,255)" fill-rule="nonzero" />
+		</g>
+	</mask>
+	<rect id="Facebook" width="24.000000" height="26.060089" x="0.000000" y="0.000000" />
+	<path id="Mask" d="M15.2525 13.0361L13.2901 13.0361C13.2901 16.4405 13.2901 20.6309 13.2901 20.6309L10.3823 20.6309C10.3823 20.6309 10.3823 16.4811 10.3823 13.0361L9 13.0361L9 10.3519L10.3823 10.3519L10.3823 8.61568C10.3823 7.37221 10.9264 5.4292 13.3168 5.4292L15.4716 5.43817L15.4716 8.0438C15.4716 8.0438 14.1622 8.0438 13.9077 8.0438C13.6531 8.0438 13.2911 8.18202 13.2911 8.775L13.2911 10.3524L15.5066 10.3524L15.2525 13.0361Z" fill="rgb(255,255,255)" fill-rule="nonzero" />
+	<g mask="url(#mask_1)">
+		<g id="Atoms / Colors / Gray #1" customFrame="url(#clipPath_1)">
+			<rect id="Atoms / Colors / Gray #1" width="24.000000" height="26.060089" x="0.000000" y="0.000000" fill="rgb(255,255,255)" fill-opacity="0" />
+			<rect id="Atoms / Colors / Black" width="24.000000" height="26.060089" x="0.000000" y="0.000000" fill="rgb(255,255,255)" />
+		</g>
+	</g>
+</svg>

@@ -7,6 +7,7 @@ import { Catalog } from '../../../components/Catalog';
 import { AboutSection } from '../../../components/AboutSection/ui/AboutSection';
 import { Sertificat } from '../../../components/Sertificat';
 import { CompanysSection } from '../../../components/CompanysSection';
+import { Footer } from '../../../components/Footer';
 
 const MainPage = () => {
   return (
@@ -18,6 +19,7 @@ const MainPage = () => {
       <Catalog />
       <AboutSection />
       <Sertificat />
+      <Footer />
     </div>
   );
 };
