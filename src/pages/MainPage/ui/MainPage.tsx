@@ -6,6 +6,7 @@ import { HeroSection } from '../../../components/HeroSection';
 import { Catalog } from '../../../components/Catalog';
 import { AboutSection } from '../../../components/AboutSection/ui/AboutSection';
 import { Sertificat } from '../../../components/Sertificat';
+import { CompanysSection } from '../../../components/CompanysSection';
 
 const MainPage = () => {
   return (
@@ -13,6 +14,7 @@ const MainPage = () => {
       <Header />
       <NavTab />
       <HeroSection />
+      <CompanysSection />
       <Catalog />
       <AboutSection />
       <Sertificat />
