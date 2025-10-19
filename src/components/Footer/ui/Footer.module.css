@@ -5,9 +5,8 @@
 
 .container {
   max-width: 1140px;
-  padding: 34px 0 17px;
   margin: 0 auto;
-  padding: 28px 32px 0;
+  padding: 28px 32px 17px;
   display: flex;
   flex-direction: column;
 }
@@ -64,6 +63,11 @@
 .item {
   width: 24px;
   height: 26px;
+  cursor: pointer;
+}
+
+.item:hover {
+  opacity: .7;
 }
 
 .href {

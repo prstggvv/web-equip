@@ -2,6 +2,7 @@
   width: 100%;
   margin: 0;
   background-color: var(--color-light);
+  position: relative;
 }
 
 .container {
@@ -66,4 +67,20 @@
 
 .button:hover {
   opacity: .7;
+}
+
+.burger {
+  position: fixed;
+  top: 15px;
+  right: 25px;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    width: 92.4%;
+  }
+
+  .mainInfo {
+    display: none;
+  }
 }
