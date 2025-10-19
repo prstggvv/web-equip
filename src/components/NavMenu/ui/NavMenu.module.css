@@ -1,0 +1,124 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 278px;
+  height: 90vh;
+  background: rgba(34, 34, 34, 1);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 71px 15px 21px;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 170px;
+  height: 32px;
+  object-fit: cover;
+  object-position: center;
+  margin: 0;
+}
+
+/* 14px  */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  align-items: center;
+  border-bottom: 1px solid rgba(65, 65, 65, 1);
+}
+
+.arrow {
+  width: 6px;
+  height: 12px;
+  object-fit: cover;
+  object-position: center;
+  transform: rotate(180deg);
+}
+
+.link {
+  font-family: var(--font-gt-eesti-pro-display-light);
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.3px;
+  margin: 0;
+  color: var(--color-light);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.lowerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.text {
+  font-family: var(--font-gt-eesti-pro-display-bold);
+  color: var(--color-light);
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+.span {
+  font-family: var(--font-gt-eesti-pro-display-regular);
+}
+
+.button {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 12px 71px;
+  border-radius: 2px;
+  border: none;
+  text-transform: uppercase;
+  font-family: var(--font-gt-eesti-pro-display-regular);
+}
+
+.button:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 486px) {
+  .nav {
+    width: 100vw;
+    width: 100%;
+    max-width: 486px;
+    padding: 71px 15px;
+  }
+
+  .lowerInfo {
+    width: 100%;
+    align-items: center;
+  }
+}

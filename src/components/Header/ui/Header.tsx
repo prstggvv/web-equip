@@ -2,12 +2,32 @@ import cls from './Header.module.css';
 import { classNames } from '../../../shared/lib/classNames/classNames';
 import LogoImage from '../../../shared/assets/images/icons/logo.svg';
 import Button from '../../../shared/ui/Button/Button';
+import BurgerMenu from '../../../shared/ui/BurgerMenu/BurgerMenu';
+import { useState, useCallback } from 'react';
+import { NavMenu } from '../../NavMenu';
 
 interface IHeaderProps {
   className?: string;
 }
 
 const Header = ({ className }: IHeaderProps) => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleBurgerClick = useCallback(() => {
+    setMenuOpen((prev) => !prev);
+  }, []);
+
+  const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLButtonElement>) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      setMenuOpen((prev) => !prev);
+    }
+  }, []);
+
+  const handleNavLinkClick = useCallback(() => {
+    setMenuOpen(false);
+  }, []);
+
   return (
     <header className={classNames(cls.header, {}, [className ?? ''])}>
       <div className={classNames(cls.container, {}, [])}>
@@ -33,13 +53,22 @@ const Header = ({ className }: IHeaderProps) => {
               </p>
             </li>
           </ul>
-          <Button 
+          <Button
             type='button'
             children='Оставить заявку'
             className={classNames(cls.button, {}, [])}
           />
         </div>
+        <BurgerMenu 
+          className={classNames(cls.burger, {}, [])}
+          menuOpen={menuOpen}
+          handleBurgerClick={handleBurgerClick}
+          handleKeyDown={handleKeyDown}
+        />
       </div>
+      <NavMenu 
+        open={menuOpen}
+      />
     </header>
   );
 };

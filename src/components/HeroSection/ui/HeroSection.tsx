@@ -22,8 +22,8 @@ export const HeroSection = ({ className }: IHeroSectionProps) => {
               accusantium doloremque laudantium, totam rem aperiam eaque ipsa.
             </p>
           </div>
-          <Button 
-            className={classNames(cls.button, {}, [])}
+          <Button
+            className={classNames(cls.button, {}, [cls.decstopButton])}
             type='button'
             children='Узнать больше'
           />
@@ -32,7 +32,7 @@ export const HeroSection = ({ className }: IHeroSectionProps) => {
           <div className={classNames(cls.groupCircles, {}, [])}>
             <div className={classNames(cls.firstCircle, {}, [])}>
               <div className={classNames(cls.secondCircle, {}, [])}>
-                <img 
+                <img
                   className={classNames(cls.image, {}, [])}
                   src={ImageFr}
                   alt='#'
@@ -41,6 +41,11 @@ export const HeroSection = ({ className }: IHeroSectionProps) => {
             </div>
           </div>
         </div>
+        <Button
+          className={classNames(cls.button, {}, [cls.mobileButton])}
+          type='button'
+          children='Узнать больше'
+        />
       </div>
     </section>
   )
