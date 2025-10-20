@@ -78,5 +78,3 @@ export const CatalogControls = memo(function CatalogControls(props: CatalogContr
     </div>
   );
 });
-
-
