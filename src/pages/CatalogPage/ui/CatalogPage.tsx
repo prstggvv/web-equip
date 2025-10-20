@@ -11,7 +11,7 @@ import { productManufacturers, productTypes } from '../../../components/Products
 
 const CatalogPage = () => {
   const [query, setQuery] = useState('');
-  const [view, setView] = useState<'grid' | 'list'>('grid');
+  const view: 'list' = 'list';
   const [selectedManufacturers, setSelectedManufacturers] = useState<string[]>([]);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
   const [page, setPage] = useState<number>(1);
@@ -49,10 +49,6 @@ const CatalogPage = () => {
   function onQueryChange(q: string) {
     setPage(1);
     setQuery(q);
-  }
-
-  function onViewChange(next: 'grid' | 'list') {
-    setView(next);
   }
 
   function onPageChange(next: number) {
@@ -96,7 +92,6 @@ const CatalogPage = () => {
               view={view}
               page={pageSafe}
               totalPages={totalPages}
-              onViewChange={onViewChange}
               onPageChange={onPageChange}
             />
           </div>
@@ -108,7 +103,6 @@ const CatalogPage = () => {
               view={view}
               page={pageSafe}
               totalPages={totalPages}
-              onViewChange={onViewChange}
               onPageChange={onPageChange}
             />
           </div>
