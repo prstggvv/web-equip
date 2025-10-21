@@ -8,6 +8,7 @@ import { products } from '../../../components/ProductsData';
 import { SidebarFilters } from '../../../components/SidebarFilters';
 import { CatalogControls } from '../../../components/CatalogControls';
 import { productManufacturers, productTypes } from '../../../components/ProductsData/model/products';
+import { TitleOfSections } from '../../../components/TitleOfSections';
 
 const CatalogPage = () => {
   const [query, setQuery] = useState('');
@@ -59,6 +60,9 @@ const CatalogPage = () => {
     <main className={classNames(cls.content, {}, [])}>
       <Header />
       <NavTab />
+      <TitleOfSections 
+        children='Оборудование'
+      />
       <div className={cls.grid}>
         <SidebarFilters
           manufacturers={productManufacturers}

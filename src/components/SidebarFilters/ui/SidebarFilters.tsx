@@ -196,7 +196,7 @@ export const SidebarFilters = memo(function SidebarFilters(props: SidebarFilters
                   checked={checked}
                   onChange={() => onToggleManufacturer(m)}
                 />
-                <span>{m}</span>
+                <span className={classNames(cls.text, {}, [])}>{m}</span>
               </label>
             );
           })}

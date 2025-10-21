@@ -1,9 +1,8 @@
  .content {
    display: grid;
-   gap: 24px;
-   padding: 24px 16px 48px;
    max-width: 1200px;
    margin: 0 auto;
+   background-color: var(--color-light);
  }
 
 .grid {
