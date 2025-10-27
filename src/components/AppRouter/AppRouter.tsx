@@ -5,6 +5,7 @@ import { NavTab } from "../NavTab";
 import { AboutCompanyPage } from "../../pages/AboutCompanyPage";
 import { TitleOfSections } from "../TitleOfSections";
 import { Footer } from "../Footer";
+import { ContactPage } from "../../pages/ContactPage";
 
 const AppRouter = () => {
   return (
@@ -23,6 +24,20 @@ const AppRouter = () => {
               children='О компании'
             />
             <AboutCompanyPage />
+            <Footer />
+          </>
+        }
+      />
+      <Route 
+        path='/contact'
+        element={
+          <>
+            <Header />
+            <NavTab />
+            <TitleOfSections 
+              children='Контакты'
+            />
+            <ContactPage />
             <Footer />
           </>
         }
