@@ -34,6 +34,9 @@ const AppRouter = () => {
           <>
             <Header />
             <NavTab />
+            <TitleOfSections 
+              children='Контакты'
+            />
             <ContactPage />
             <Footer />
           </>
