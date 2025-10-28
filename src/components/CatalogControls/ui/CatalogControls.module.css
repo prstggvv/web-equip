@@ -56,12 +56,19 @@
 @media (max-width: 1024px) {
   .controls {
     flex-direction: column;
-    gap: 16px;
-    align-items: stretch;
+    align-items: flex-end;
   }
   
   .left, .right {
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .controls {
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 120px;
   }
 }
 

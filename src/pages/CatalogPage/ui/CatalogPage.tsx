@@ -74,23 +74,8 @@ const CatalogPage = () => {
           onToggleManufacturer={toggleManufacturer}
           onToggleType={toggleType}
           onApplyFilters={() => {}}
-          isMobile={false}
         />
         <div className={cls.listCol}>
-          <div className={cls.mobileFilters}>
-            <SidebarFilters
-              manufacturers={productManufacturers}
-              types={productTypes}
-              query={query}
-              selectedManufacturers={selectedManufacturers}
-              selectedTypes={selectedTypes}
-              onQueryChange={onQueryChange}
-              onToggleManufacturer={toggleManufacturer}
-              onToggleType={toggleType}
-              onApplyFilters={() => {}}
-              isMobile={true}
-            />
-          </div>
           <div className={cls.controlsTop}>
             <CatalogControls
               view={view}

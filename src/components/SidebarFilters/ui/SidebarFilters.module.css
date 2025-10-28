@@ -5,7 +5,7 @@
   background: var(--background-color-premium);
   border-radius: 12px;
   padding: 16px;
-  box-shadow: 0 2px 12px rgba(0,0,0,.06);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .06);
 }
 
 .block {
@@ -14,8 +14,12 @@
 }
 
 .label {
-  font-weight: 600;
-  color: #111827;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.5px;
+  color: var(--color-black);
+  font-family: var(--font-gt-eesti-pro-display-regular);
+  margin: 0;
 }
 
 .input {
@@ -143,6 +147,9 @@
   padding: 24px;
   overflow-y: auto;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .modalFooter {
@@ -191,7 +198,7 @@
 
 .applyBtn:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 18px rgba(17,24,39,.18);
+  box-shadow: 0 6px 18px rgba(17, 24, 39, .18);
 }
 
 /* Responsive design */
@@ -199,7 +206,7 @@
   .sidebar {
     display: none;
   }
-  
+
   .mobileToggle {
     display: inline-flex;
   }
