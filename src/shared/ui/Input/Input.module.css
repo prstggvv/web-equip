@@ -1,0 +1,40 @@
+.label {
+  min-height: 50px;
+  position: relative;
+}
+
+.input {
+  background: var(--color-light);
+  border-radius: 2px;
+  border: 1px solid rgba(227, 232, 239, 1);
+  color: var(--color-black);
+  font-size: 14px;
+  font-family: var(--font-gt-eesti-pro-display-light);
+  line-height: 28px;
+  letter-spacing: 5%;
+  outline: none;
+  padding: 12px 56px;
+  width: 100%;
+}
+
+.errorInput {
+  border: 1px solid var(--error-color);
+}
+
+.errorText {
+  color: var(--error-color);
+  display: block;
+  font-family: var(--font-gt-eesti-pro-display-regular);
+  font-size: 12px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.svg {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  width: 20px;
+  height: 16px;
+  margin: 0;
+}
